@@ -19,10 +19,10 @@ let [number, pesan] = text.split `|`
 }
 handler.help = ['chat <nomor>']
 handler.tags = ['new']
-handler.command = /^(pesan)$/i
+handler.command = /^(chat)$/i
 handler.rowner = true
 handler.limit = true
-handler.premium = true
+handler.premium = false
 handler.group = false
 handler.private = false
 
