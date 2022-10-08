@@ -9,7 +9,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
  
  ${x.cerita}
 `
-        await conn.sendButton(m.chat, caption, wm, x.thumbnail, 'cersex', '/cersex', m)
+        await conn.sendButton(m.chat, caption, wm, 'cersex', '/cersex', m)
 }
 handler.help = ['cersex']
 handler.tags = ['fun']
