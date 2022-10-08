@@ -6,7 +6,7 @@ let handler = async(m, { conn }) => {
 
 handler.help = ['asupan']
 
-handler.tags = ['new', 'premium']
+handler.tags = ['asupan']
 
 handler.command = /^asupan$/i
 
