@@ -64,7 +64,7 @@ handler.command = /^upsw$/i
 
 handler.owner = true
 
-export default handler
+module.exports = handler
 
 function pickRandom(arr) {
 
