@@ -19,4 +19,4 @@ handler.help = ['poll pertanyaan|pilihan|pilihan']
 handler.tags = ['group'] 
 handler.command = /^po(l((l?ing|ls)|l)|ols?)$/i
 
-export default handler
+module.exports = handler
