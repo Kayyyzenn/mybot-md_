@@ -68,5 +68,5 @@ handler.owner = true
 
 handler.premium = false
 
-export default handler
+module.exports = handler
 
