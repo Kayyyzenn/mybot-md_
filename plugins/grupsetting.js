@@ -4,11 +4,11 @@ let handler = async(m, { conn, usedPrefix, command, args, text, }) => {
 
     let sel = `[ All In One ] Dengan MengClick Saja Kamu Dapat Mengaktifkan Berbagai Settingan Di Group Loh!!!😅☝`
 
-    let rs = `Klik Sini Kontol`
+    let rs = `Klik`
 
 const sections = [ {
 
-	title: `This Feature By Ndaa`,
+	title: `Beta Testing`,
 
 	rows: [
 
