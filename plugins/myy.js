@@ -12,6 +12,11 @@ let anu = `╭───❑ 「 BALANCE 」 ❑────
 │ ✇ Level: ${user.level}
 │ ✇ Role: ${user.role}
 │ ✇ Warn: ${user.warn}
+│ ✇ Job: ${user.job}
+│ ✇ BGL: ${user.bgl}
+│ ✇ DL: ${user.dl}
+│ ✇ WL: ${user.wl}
+│ ✇ GEMS: ${user.gems}
 ╰❑`
     conn.sendButton(m.chat, anu, wm, 'back to menu', '.menu', m)
 }
