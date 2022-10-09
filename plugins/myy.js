@@ -13,11 +13,6 @@ let anu = `╭───❑ 「 BALANCE 」 ❑────
 │ ✇ Role: ${user.role}
 ╰❑`
     conn.reply(m.chat, anu, m)
-    return await conn.relayMessage(
-         m.chat,
-         template.message,
-         { messageId: template.key.id }
-     )
 }
 handler.help = ['myy', 'my @user']
 handler.tags = ['xp']
