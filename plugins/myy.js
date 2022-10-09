@@ -11,6 +11,7 @@ let anu = `╭───❑ 「 BALANCE 」 ❑────
 │ ✇ Exp: ${user.exp}
 │ ✇ Level: ${user.level}
 │ ✇ Role: ${user.role}
+│ ✇ Warn: ${user.warn}
 ╰❑`
     conn.reply(m.chat, anu, m)
 }
