@@ -13,7 +13,7 @@ let anu = `╭───❑ 「 BALANCE 」 ❑────
 │ ✇ Role: ${user.role}
 │ ✇ Warn: ${user.warn}
 ╰❑`
-    conn.reply(m.chat, anu, m)
+    conn.sendButton(m.chat, anu, wm, 'back to menu', '.menu', m)
 }
 handler.help = ['myy', 'my @user']
 handler.tags = ['xp']
